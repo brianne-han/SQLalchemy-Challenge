@@ -129,4 +129,5 @@ def temps_start_end():
     return jsonify(temps)
 
     
-
+if __name__ == "__main__":
+    app.run(debug=True)
